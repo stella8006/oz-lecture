@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Form page</title>
+    </head>
+    <body>
+        <form action="/submit" method="post">
+            <input type="text" name="username" placholder="name">
+            <input type="password" name="password"" placholder="password"">
+            <br>
+            <div>
+                <h3>selet hobby</h3>
+                <input type="checkbox" name="hobbt" value="reading">Book
+                <input type="checkbox" name="hobbt" value="gaming">Game
+            </div>
+            <div>
+                <h3>selet zender</h3>
+                <input type="radio" name="hobbt" value="male">male
+                <input type="radio" name="hobbt" value="female">female
+            </div>
+             <div>
+                <h3>도시를 선택해주세요</h3>
+                <select name="city">
+                    <option value="seoul">서울</option>
+                    <option value="busan">부산</option>
+                    <option value="jeju">Jeju</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+             </div>
+             <hr>
+             <div>
+                <h3>etc</h3>
+                <input type="email" name="email" placeholder="email">
+                <input type="date" name="birthdate" placeholder="Birthday">
+             </div>
+            <button type="submit" name="" value="submit" >Submit</button>
+            <button type="reset" name="" valur="reset">Reset</button>
+
+        </form>
+    </body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>User Registration</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>User Registration</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Register</a>
+      <a href="#">About</a>
+    </nav>
+    <form action="#" method="post" class="form-group">
+      <div>
+        <label for="username">Name</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placholder="username"
+          autocomplete="off"
+        />
+      </div>
+      <div>
+        <label for="email">E-mal</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placholder="example@gmail.com"
+          autocomplete="off"
+        />
+      </div>
+      <div>
+        <label for="password">Password</label>
+        <input type="password" id="password" placholder="Password" />
+      </div>
+      <div>
+        <label for="birthday">Birth</label>
+        <input type="date" id="birthday" placholder="Birthday" />
+      </div>
+      <div>
+        <label for="age">AGE</label>
+        <input type="number" id="age" min="1" max="100" />
+      </div>
+      <div>
+        <label for="volume">Volume</label>
+        <input type="range" id="volume" min="1" max="100" />
+      </div>
+      <div>
+        <label for="gender">Gender</label>
+        <input type="radio" id="gender-male" name="gender" value="male" />Male
+        <input
+          type="radio"
+          id="gender-female"
+          name="gender"
+          value="female"
+        />Female
+      </div>
+      <div>
+        <label for="hobby">Hobby</label>
+        <input type="checkbox" id="hobby" value="reading" />reading
+        <input type="checkbox" id="hobby" value="gaming" />gaming
+      </div>
+      <br />
+      <div>
+        <label for="contry">contry</label>
+        <select type="option" id="contry">
+          <option value="kr">South Korea</option>
+          <option value="us">USA</option>
+          <option value="jp">Japan</option>
+          <option value="uk">UK</option>
+          <option value="CA">Canada</option>
+        </select>
+      </div>
+      <br />
+      <button type="submit">Submit</button>
+      <button type="Reset">Reset</button>
+    </form>
+  </body>
+</html>

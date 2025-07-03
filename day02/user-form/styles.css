@@ -1,0 +1,80 @@
+* {
+  margin: 2px;
+  padding: 2px;
+  box-sizing: border-box;
+}
+boby {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+
+#registration-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+[type="text"] {
+  color: #007bff;
+}
+[type="email"] {
+  color: blueviolet;
+}
+[type="password"] {
+  color: brown;
+}
+[type="submit"] {
+  color: blueviolet;
+}
+[type="reset"] {
+  color: brown;
+}
+form p {
+  padding: 5px;
+}
+form > p {
+  border-bottom: 1px solid #eee;
+}
+form > p:first-child {
+  margin-top: 20px;
+}
+.form-group::before {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #ddd;
+  margin-top: 10px;
+}
+.form-group::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background: #ddd;
+  margin-top: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+select {
+  width: 150px;
+  font-weight: bold;
+}
+select:hover {
+  border-color: #007bff;
+}
+
+select option:first-child {
+  font-weight: bold;
+  color: #0056b3;
+}
+
+h2 ::after {
+  content: "✨";
+  margin-left: 10px;
+}
+[type="submit"] [type="reset"] :hover {
+  background-color: #0056b3;
+}
